@@ -1,12 +1,13 @@
 package utils
 
 import (
-	"fmt"
-	"errors"
-	"strconv"
-	"net/http"
 	"encoding/json"
+	"errors"
+	"fmt"
 	"mysql-backend/models"
+	"net/http"
+	"strconv"
+
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 )
